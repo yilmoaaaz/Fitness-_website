@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع للياقة البدنية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبا في موقع اللياقة البدنية</h1>
+        <p>ابدأ تمرين اليوم لتحقيق أهدافك!</p>
+    </header>
+    <main>
+        <button id="start-workout">ابدأ تمرين اليوم</button>
+        <div id="exercise-container" class="hidden">
+            <h2>تمرينك الحالي</h2>
+            <div id="exercise-info">
+                <button id="start-exercise" class="hidden">ابدأ التمرين</button>
+                <img id="exercise-image" src="" alt="تمرين">
+                <p id="exercise-name">التمرين: <span id="exercise-name-text"></span></p>
+                <p id="exercise-timer">الوقت المتبقي: <span id="timer">00:00</span></p>
+                <button id="next-exercise" class="hidden">التمرين التالي</button>
+                <button id="finish-exercise" class="hidden">أنهى التمرين</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- تم إزالة نص حقوق الطبع والنشر -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
